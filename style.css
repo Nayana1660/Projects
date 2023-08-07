@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 50px;
+    color: white;   
+}
+.container button{
+    background-color: #1E5035;
+    color: #fff; 
+    font-weight: bold;
+}
+
+.container button:hover{
+    background-color: #33885A;
+    color: #fff;
+}
+
+.container h1{
+    font-size: 3rem;
+    font-family: 'Bungee Inline', cursive;
+    color: #9B7A01;
+}
+.container h4{
+    font-family: 'Acme', sans-serif;
+}
+
+table{
+    background-color: white; 
+    font-weight: 700;
+    color: black;
+}
+
+table td,th{
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) { 
+    table{
+        margin-bottom: 100px;
+    }
+}
